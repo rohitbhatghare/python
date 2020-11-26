@@ -1,0 +1,6 @@
+f=open("abcd.txt","w")
+f.write("ram\n")
+f.write("Software\n")
+f.write("Solutions \n")
+print("Data written to the file successfully")
+f.close()

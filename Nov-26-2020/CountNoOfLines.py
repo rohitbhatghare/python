@@ -1,0 +1,6 @@
+file=input("Which FIle You Want to open : ")
+f=open(file,'r')
+data=f.readlines()
+print(data)
+print("Number of lines in files : ",len(data))
+f.close()

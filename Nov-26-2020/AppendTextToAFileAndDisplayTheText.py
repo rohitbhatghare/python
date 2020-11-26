@@ -1,0 +1,5 @@
+f=open(abc.txt)
+f.write("honey")
+f.close()
+a=open("abcd.txt","r")
+print(a)
